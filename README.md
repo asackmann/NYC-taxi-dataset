@@ -1,3 +1,5 @@
 # NYC-taxi-dataset
 
 The [New York City taxi dataset](nyc.gov/html/tlc/html/about/trip_record_data.shtml) is a very good example of a large dataset with lots of immediate analytics applications. We use it in different tutorials to demonstrate examples of data-processing and modeling using R, Microsoft R. The original data for yellow cabs (one CSV per month) can be downloaded directly from the above link. [Here](https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2016-01.csv) is an example. A [data dictionary](http://www.nyc.gov/html/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf) is also available here.
+
+To run the R code shown in the examples, you will need the `RevoScaleR` R package, which is not available on CRAN. Instead, you need to use [Microsoft R Server](https://msdn.microsoft.com/en-us/microsoft-r/microsoft-r-getting-started), or it's light-weight non-commercial counterpart [Microsoft R Client](https://msdn.microsoft.com/en-us/microsoft-r/r-client-get-started).
